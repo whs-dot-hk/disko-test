@@ -1,6 +1,6 @@
 {
   disko.devices.disk = {
-    main = {
+    root = {
       type = "disk";
       device = "/dev/disk/by-diskseq/1";
       content = {

@@ -30,7 +30,7 @@
         }
         ({config, ...}: {
           system.stateVersion = config.system.nixos.version;
-          disko.devices.disk.main.imageSize = "20G";
+          disko.devices.disk.root.imageSize = "20G";
         })
       ];
     };
